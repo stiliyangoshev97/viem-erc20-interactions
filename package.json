@@ -1,0 +1,30 @@
+{
+  "name": "viem-erc20-interactions",
+  "version": "1.0.0",
+  "description": "A TypeScript project demonstrating ERC-20 token interactions using Viem on Ethereum",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "build": "tsc",
+    "dev": "tsx watch src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "viem",
+    "erc20",
+    "typescript",
+    "blockchain",
+    "smart-contracts",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^24.0.11",
+    "dotenv": "^17.2.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "viem": "^2.31.7"
+  }
+}
